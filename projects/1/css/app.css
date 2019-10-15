@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+}
+
+body {
+    margin-top: 50px;
+}
+
+.reset-btn {
+    transition: 0.3s;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: #dce0d3;
+    border-color: #e906bf;
+}
+
+.reset-btn:hover {
+    background-color: blanchedalmond;
+}
+
+.board-container {
+    display: none;
+}
+
+.container-head {
+    text-align: center;
+    border-bottom: 0;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.board-container td {
+    transition: 0.3s;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    outline: 2px solid black;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: yellowgreen;
+}
+
+.hidden {
+    background-color: darkgrey;
+}
+
+.timer{
+    text-align: center;
+    width: 20%;
+    font-size: 2em;
+    border-radius: 30px;
+    cursor: progress;
+    color: #2c3737;
+    display: none;
+}
+
+.helper {
+    display: none;
+    cursor: pointer;
+    transition: 0.1s;
+    text-align: center;
+    padding: 5px;
+    top: 3px;
+    font-size: 1.2em;
+    width: 90px;
+    height: 25px;
+    border: 2px solid lightskyblue;
+    border-radius: 30px;
+}
+.helper:hover {
+    background-color: lightskyblue;
+}
+
+.difficulties {
+    text-align: center;
+}
+
+.difficulties button {
+    border: 2px solid #e906bf;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    transition: 0.2s;
+    font-size: 1.5em;
+}
+.difficulties button:hover {
+    border: 2px solid #35dfc8;
+    background-color: lightskyblue;
+}
+
+
+.msg {
+    color: pink;
+    text-align: center;
+}

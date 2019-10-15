@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touch nums (in their private parts)</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()">
+    <div class="container">
+        <h2 class="msg">You finished the game!<br/> to play again just click<br/> a difficulty button</h2>
+
+        <div class="header">
+            <h1 style="text-align: center">Touch the nums!</h1>
+            <h2 style="text-align: center">to start, pick difficulty :)</h2>
+        </div>
+        <!-- <h1 class="msg">Congratulations</h1> -->
+        <table align="center" cellspacing="6">
+            <tbody class="game-body"></tbody>
+        </table>
+        <div class="select-difficulty" align="center">
+            <button onclick="difficultySelect(this)">Easy</button>
+            <button onclick="difficultySelect(this)">Medium</button>
+            <button onclick="difficultySelect(this)">Hard</button>
+        </div>
+        <div class="hidden timer-display">
+            <h1 class="timer"></h1>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

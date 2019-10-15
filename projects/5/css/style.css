@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+
+.container {
+    margin: 4% auto;
+    margin-top: 0;
+    width: 35%;
+    padding: 20px;
+    background-color: #a1a0ff;
+    border-radius: 8px;
+    /* display: inline-block; */
+}
+
+.container img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 50%;
+    margin: 5px;
+    background-color: #4cdbe8;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color:white;
+    background-color: #00ff63;
+}
+
+.reset-btn{
+    height: 50px;
+    width: 50%;
+    margin: 5px;
+    background-color: #ef7bff;
+    border: 2px solid #da00ff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.reset-btn:hover {
+    color:black;
+    font-style: oblique;
+    background-color: #da00ff;
+}
+
+.winner {
+    display: none;
+}

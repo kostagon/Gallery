@@ -1,0 +1,82 @@
+* {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.1em;
+  /* box-sizing: border-box; */
+  transition: .3s;
+}
+body {
+  background-color: #c80d3a;
+  text-align: center;
+}
+
+body .container {
+  /* margin: 0 auto; */
+  /* width: 80%; */
+}
+
+.header {
+  background-color: #c80d3a;
+  border-radius: 30px;
+  padding: 2px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.game-body {
+  /* width: 200px; */
+  background-color: #ff9100;
+}
+
+td {
+  cursor: pointer;
+  border: 2px solid #e4f2c9;
+  border-bottom: 2px solid #80fcaf;
+  border-radius: 30%;
+  padding: 21px;
+  color: black;
+}
+
+td:hover {
+  background-color: #ff00ff;
+  color: white;
+}
+
+.check {
+  background-color: #c80d3a;
+  border-radius: 0;
+  border: #c80d3a;
+}
+
+.check:hover {
+  background-color: #c80d3a;
+}
+
+.timer {
+  width: 20%;
+  font-size: 2em;
+  background-color: #2c3737;
+  border-radius: 30px;
+  cursor: progress;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.msg {
+  font-size: 1.2em;
+}
+
+.select-difficulty button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #c80d3a;
+  color: black;
+  border-radius: 30px;
+}
+.select-difficulty button:hover {
+  background-color: #80fcaf;
+}

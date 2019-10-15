@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KG | SHOOLA MO'KSHIM</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-head">
+            <button class="reset-btn" onclick="initGame()" onmousedown="btnFn()"></button><br/>
+        </div>
+        
+        
+        <div class="board-container">
+        </div><br/>
+        <div class="helper" onclick="giveHint()">Need help?</div>
+        <h1 class="timer"></h1>
+        <div class="difficulties">
+            <h1>❤Select difficulty❤</h1><br/>
+            <button onclick="setDiff(this)">👶</button>
+            <button onclick="setDiff(this)">👦</button>
+            <button onclick="setDiff(this)">👴</button>
+        </div>
+        <h1 class="msg"></h1>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
