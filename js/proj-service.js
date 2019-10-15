@@ -18,10 +18,6 @@ function createProj(id, name, title, labels) {
     }
 }
 
-function runProj(proj) {
-
-}
-
 function getProjects() {
     return gProjs;
 }
