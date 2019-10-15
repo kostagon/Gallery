@@ -26,6 +26,7 @@ function sendMail() {
   var mail = document.querySelector('#form-email').value;
   var subject = document.querySelector('#form-subject').value;
   var msg = document.querySelector('#form-msg').value;
+  if(!mail || !subject || !msg) return;
   window.location = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=contact.kostagon@gmail.com&su=${subject}&body=${msg}`;
 }
 
