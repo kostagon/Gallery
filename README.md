@@ -1,6 +1,7 @@
 # [Cosing Academy - Base Gallery]
 A responsive portfolio grid to be used by Coding Academy students
 
+https://kostagon.github.io/Gallery/
 
 ## Usage
 
